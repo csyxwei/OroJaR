@@ -8,7 +8,7 @@
 ![Teaser image](../teaser_images/complex1.gif)
 ![Teaser image](../teaser_images/complex2.gif)
 
-This repo contains a TensorFlow implementation of the Orothogal Jocabian Regularization applied to ProgressiveGAN. The code is based on the [Hessian Penalty](https://github.com/wpeebles/hessian_penalty), we thank the authors for their excellent work.  
+This repo contains a TensorFlow implementation of the Orothogonal Jacobian Regularization applied to ProgressiveGAN. The code is based on the [Hessian Penalty](https://github.com/wpeebles/hessian_penalty), we thank the authors for their excellent work.  
 
 ## Setup
 
