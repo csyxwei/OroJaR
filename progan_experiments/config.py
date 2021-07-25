@@ -19,6 +19,6 @@ inception_path = 'models/inception_v3_features.pkl'
 vgg16_path = 'models/vgg16_zhang_perceptual.pkl'
 
 
-run_dir_ignore = ['results', 'datasets', 'cache', 'wandb', 'visuals', 'gen_pairs']
+run_dir_ignore = ['results', 'datasets', 'cache', 'wandb', 'visuals', 'pairs']
 
 # ----------------------------------------------------------------------------
