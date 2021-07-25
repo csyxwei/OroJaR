@@ -4,6 +4,10 @@ Home | [PyTorch BigGAN Discovery](biggan_discovery) | [TensorFlow ProGAN Regular
 
 ---
 
+![Simple](teaser_images/simple.gif)
+![Complex Right](teaser_images/complex1.gif)
+![Complex Left](teaser_images/complex2.gif)
+
 This repo contains code for our OroJaR Regularization that encourages disentanglement in neural networks. It efficiently optimizes the Jacobian vectors of your neural network with repect to each input dimension to be orthogonal, leading to disentanglement results. 
 
 This repo contains the following:
