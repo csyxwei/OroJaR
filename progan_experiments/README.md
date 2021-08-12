@@ -34,7 +34,7 @@ where `<DATASET>` is one of `edges_and_shoes`, `clevr_simple`, `clevr_complex`, 
 To evaluate pre-trained models' VP , you can first use following command to generate the paired images:
 
 ```python
-python gen_pairs.py --model model_paths
+python gen_pairs.py --model model_paths --seed 0
 ```
 
 Generated images will be saved to `pairs`. Then use this repository [VP-metric-pytorch](https://github.com/zhuxinqimac/VP-metric-pytorch) to get the VP score using the generated dataset. You should run multiple times (e.g. 3) of this evaluation procedure to obtain an averaged score for your model.
@@ -74,7 +74,7 @@ If our code aided your research, please cite our [paper](./):
 ```
 @inproceedings{wei2021orojar,
   title={Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation},
-  author={Yuxiang Wei, Yupeng Shi, Xiao Liu, Zhilog Ji, Yuan Gao, Zhongqin Wu and Wangmeng Zuo},
+  author={Yuxiang Wei, Yupeng Shi, Xiao Liu, Zhilong Ji, Yuan Gao, Zhongqin Wu and Wangmeng Zuo},
   booktitle={Proceedings of International Conference on Computer Vision (ICCV)},
   year={2021}
 }

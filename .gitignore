@@ -5,3 +5,6 @@
 */__pycache__git
 .pyc
 .iml
+
+./simplegan_experiments/*.sh
+./progan_experiments/*.sh
