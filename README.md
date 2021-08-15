@@ -5,8 +5,8 @@ Home | [PyTorch BigGAN Discovery](biggan_discovery) | [TensorFlow ProGAN Regular
 ---
 
 ![Simple](teaser_images/simple.gif)
-![Complex Right](teaser_images/complex1.gif)
-![Complex Left](teaser_images/complex2.gif)
+![Complex Left](teaser_images/biggan1.gif)
+![Complex Left](teaser_images/biggan4.gif)
 ![Complex Left](teaser_images/celeba1.gif)
 ![Complex Left](teaser_images/dsprites.gif)
 

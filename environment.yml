@@ -7,10 +7,10 @@ dependencies:
   - pillow=7.1.2
   - pip
   - python=3.6.10
-  - pytorch
+  - pytorch=1.7.1
   - scipy=1.4.1
   - tensorflow-gpu=1.14.0
-  - torchvision
+  - torchvision=0.8.2
   - pip:
     - matplotlib==3.3.0
     - moviepy==1.0.3
@@ -25,3 +25,4 @@ dependencies:
     - tensorflow-probability==0.7.0
     - tqdm==4.46.0
     - wget
+    - h5py

@@ -4,15 +4,15 @@
 
 ---
 
-![Teaser image](../teaser_images/dsprites.gif)
 ![Teaser image](../teaser_images/celeba1.gif)
 ![Teaser image](../teaser_images/celeba2.gif)
+![Teaser image](../teaser_images/dsprites.gif)
 
 This repo contains a Pytorch implementation of the Orothogonal Jacobian Regularization applied to a Simple GAN on Dsprites and CelebA. The code is based on the [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix), we thank the authors for their excellent work.  
 
 ## Setup
 
-Follow the simple setup instructions [here](../README.md#getting-started). The pytorch version we have used to train the models is pytorch1.7.1+cu110.
+Follow the simple setup instructions [here](../README.md#getting-started). The pytorch version we have used to train the models is pytorch1.7.1.
 
 ## Visualizing and Evaluating Pre-Trained Models
 
@@ -81,4 +81,4 @@ If our code aided your research, please cite our [paper](./):
 
 ## Acknowledgments
 
-This repo builds upon [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). We thank the authors for open-sourcing their code. The original license can be found in [CycleGAN LICENSE](LICENSE-CycleGAN.txt).
+This repo builds upon [CycleGAN](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix). We thank the authors for open-sourcing their code. The original license can be found in [CycleGAN LICENSE](LICENSE-CycleGAN).
