@@ -19,7 +19,7 @@ Follow the simple setup instructions [here](../README.md#getting-started).
 The pre-trained models of OroJaR are provided at [Google Drive](https://drive.google.com/drive/folders/1fi9mc-KxLmi-d39dQMFHc6acxFQvTaND) or [BaiduNetDisk](https://pan.baidu.com/s/1Kqa4rlOfxt6atoN1qrxU_w) (xwot). You can download and put them into [pretrained_models](./pretrained_models) folder. Other pre-trained models (e.g. Hessian Penalty, InfoGAN, vanilla ProGAN) can be found in [Hessian Penalty](https://github.com/wpeebles/hessian_penalty/tree/master/progan_experiments). To generate a high-quality interpolation video in the `visuals` directory, which shows what each `z` component has learned, you can simply run:
 
 ```python
-python visualize.py --models model_paths
+python visualize.py --models model_paths --seed <0/1/2/3/4>
 ```
 
 You can also specify multiple checkpoints to generate visuals for them simultaneously. There are several visualization options; see [`visualize.py`](visualize.py) for details and documentation.
@@ -34,10 +34,13 @@ where `<DATASET>` is one of `edges_and_shoes`, `clevr_simple`, `clevr_complex`, 
 To evaluate pre-trained models' VP , you can first use following command to generate the paired images:
 
 ```python
-python gen_pairs.py --model model_paths --seed 0
+python gen_pairs.py --model model_paths --seed <0/1/2/3/4>
 ```
 
-Generated images will be saved to `pairs`. Then use this repository [VP-metric-pytorch](https://github.com/zhuxinqimac/VP-metric-pytorch) to get the VP score using the generated dataset. You should run multiple times (e.g. 3) of this evaluation procedure to obtain an averaged score for your model.
+Generated images will be saved to `pairs`. 
+Then use this repository [VP-metric-pytorch](https://github.com/zhuxinqimac/VP-metric-pytorch) to get the VP score using the generated dataset. 
+The hyperparams we used for testing is `lr:0.0005, batch_size:32, epochs:300, input_mode:concat, in_channels:6, test_ratio:0.9, out_dim:(3 for CLEVR-U and 12 for others)`. For CLEVR-Simple dataset, the paired images are generated from top six activeness score dimensions, see [`gen_pairs.py`](gen_pairs.py) for more details.  
+You should run multiple times (e.g. 3) of this evaluation procedure to obtain an averaged score for your model.
 
 Finally, if you'd like to compute activeness score histograms, you can use [`figures.py`](figures.py):
 

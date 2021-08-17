@@ -30,7 +30,7 @@ To evaluate pre-trained models' VP , you can first use following command to gene
 python gen_pairs.py --model_path model_path --model_name OroJaR --model_type gan --nz <input dimension> --nc_out <output channel>
 ```
 
-Generated images will be saved to `pairs`. Then use this repository [VP-metric-pytorch](https://github.com/zhuxinqimac/VP-metric-pytorch) to get the VP score using the generated dataset. You should run multiple times (e.g. 3) of this evaluation procedure to obtain an averaged score for your model.
+Generated images will be saved to `pairs`. Then use this repository [VP-metric-pytorch](https://github.com/zhuxinqimac/VP-metric-pytorch) to get the VP score using the generated dataset. The hyperparams we used for testing is `lr:0.0005, batch_size:32, epochs:300, input_mode:diff, in_channels:3, test_ratio:0.99, out_dim:(3 for Dsprites)`.  You should run multiple times (e.g. 3) of this evaluation procedure to obtain an averaged score for your model.
 
 Finally, if you'd like to compute activeness score histograms, you can use [`activeness.py`](activeness.py):
 

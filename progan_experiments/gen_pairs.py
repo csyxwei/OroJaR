@@ -157,11 +157,20 @@ def run(opt):
                                 high=2,
                                 size=[batch_size, nz])
 
-        # idx = np.array([1, 5, 9, 4, 3, 11, 2, 8, 10, 7, 0, 6]) # simple orojar
-        idx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])  # original
-        # idx = np.array([6, 11, 2, 1, 10, 7, 8, 3, 5, 4, 9, 0]) # simple hessian ft
 
+        idx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11])  # original
         delta_dim = np.random.randint(0, 12, size=[batch_size])
+
+
+
+        ## Used for test simple dataset, the paired images are generated from top six activeness score dimensions.
+        ## You should also uncomment the corresponding idx line.
+        # idx = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]) # progan or sefa
+        # idx = np.array([1, 5, 9, 4, 3, 11, 2, 8, 10, 7, 0, 6]) # simple orojar
+        # idx = np.array([6, 11, 2, 1, 10, 7, 8, 3, 5, 4, 9, 0]) # simple hessian ft
+        # delta_dim = np.random.randint(0, 6, size=[batch_size])
+
+
         delta_dim = idx[delta_dim]
 
         delta_onehot = np.zeros((batch_size, nz))
