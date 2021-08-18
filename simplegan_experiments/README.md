@@ -1,6 +1,6 @@
 ## OroJaR &mdash; Experiments on Dsprites
 
-[Home](../README.md) | [PyTorch BigGAN Discovery](../biggan_discovery) | [TensorFlow ProGAN Regularization](../progan_experiments) | PyTorch Simple GAN Experiments | [Paper](https://arxiv.org/abs/2108.07668)
+[Home](https://github.com/csyxwei/OroJaR) | [PyTorch BigGAN Discovery](../biggan_discovery) | [TensorFlow ProGAN Regularization](../progan_experiments) | PyTorch Simple GAN Experiments | [Paper](https://arxiv.org/abs/2108.07668)
 
 ---
 

@@ -1,6 +1,6 @@
 ## OroJaR &mdash; BigGAN Direction Discovery
 
-[Home](../README.md) | PyTorch BigGAN Discovery | [TensorFlow ProGAN Regularization](../progan_experiments) | [PyTorch Simple GAN Experiments](simplegan_experiments) | [Paper](http://arxiv.org/abs/2108.07668)
+[Home](https://github.com/csyxwei/OroJaR) | PyTorch BigGAN Discovery | [TensorFlow ProGAN Regularization](../progan_experiments) | [PyTorch Simple GAN Experiments](../simplegan_experiments) | [Paper](http://arxiv.org/abs/2108.07668)
 
 
 

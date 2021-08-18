@@ -1,6 +1,6 @@
 ## OroJaR &mdash; ProgressiveGAN Regularization
 
-[Home](../) | [PyTorch BigGAN Discovery](../biggan_discovery) | TensorFlow ProGAN Regularization | [PyTorch Simple GAN Experiments](../biggan_discovery) | [Paper](http://arxiv.org/abs/2108.07668)
+[Home](https://github.com/csyxwei/OroJaR) | [PyTorch BigGAN Discovery](../biggan_discovery) | TensorFlow ProGAN Regularization | [PyTorch Simple GAN Experiments](../simplegan_experiments) | [Paper](http://arxiv.org/abs/2108.07668)
 
 ---
 
