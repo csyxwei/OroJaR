@@ -1,6 +1,6 @@
 ## OroJaR &mdash; ProgressiveGAN Regularization
 
-[Home](../) | [PyTorch BigGAN Discovery](../biggan_discovery) | TensorFlow ProGAN Regularization | [PyTorch Simple GAN Experiments](../biggan_discovery) | [Paper](./)
+[Home](../) | [PyTorch BigGAN Discovery](../biggan_discovery) | TensorFlow ProGAN Regularization | [PyTorch Simple GAN Experiments](../biggan_discovery) | [Paper](http://arxiv.org/abs/2108.07668)
 
 ---
 
@@ -73,7 +73,7 @@ This code supports both Tensorboard and the [WandB](https://www.wandb.com/) dash
 
 ## Citation
 
-If our code aided your research, please cite our [paper](./):
+If our code aided your research, please cite our [paper](http://arxiv.org/abs/2108.07668):
 ```
 @inproceedings{wei2021orojar,
   title={Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation},

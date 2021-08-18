@@ -1,6 +1,6 @@
 ## OroJaR &mdash; Experiments on Dsprites
 
-[Home](../README.md) | [PyTorch BigGAN Discovery](../biggan_discovery) | [TensorFlow ProGAN Regularization](../progan_experiments) | PyTorch Simple GAN Experiments | [Paper](../)
+[Home](../README.md) | [PyTorch BigGAN Discovery](../biggan_discovery) | [TensorFlow ProGAN Regularization](../progan_experiments) | PyTorch Simple GAN Experiments | [Paper](https://arxiv.org/abs/2108.07668)
 
 ---
 
@@ -69,7 +69,7 @@ This code supports the Tensorboard. If you want to use Tensorboard, use `--displ
 
 ## Citation
 
-If our code aided your research, please cite our [paper](./):
+If our code aided your research, please cite our [paper](https://arxiv.org/abs/2108.07668):
 ```
 @inproceedings{wei2021orojar,
   title={Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation},

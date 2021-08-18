@@ -1,6 +1,5 @@
-## Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation
-
-Home | [PyTorch BigGAN Discovery](biggan_discovery) | [TensorFlow ProGAN Regularization](progan_experiments) | [PyTorch Simple GAN Experiments](simplegan_experiments) | [Paper](./)
+## [Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation](https://arxiv.org/abs/2108.07668)
+Home | [PyTorch BigGAN Discovery](biggan_discovery) | [TensorFlow ProGAN Regularization](progan_experiments) | [PyTorch Simple GAN Experiments](simplegan_experiments) | [Paper](https://arxiv.org/abs/2108.07668)
 
 ---
 
@@ -66,7 +65,7 @@ If you opt to use your environment, we recommend using TensorFlow 1.14.0 and PyT
 
 ## Citation
 
-If our code aided your research, please cite our [paper](./):
+If our code aided your research, please cite our [paper](https://arxiv.org/abs/2108.07668):
 ```
 @inproceedings{wei2021orojar,
   title={Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation},

@@ -1,6 +1,6 @@
 ## OroJaR &mdash; BigGAN Direction Discovery
 
-[Home](../README.md) | PyTorch BigGAN Discovery | [TensorFlow ProGAN Regularization](../progan_experiments) | [PyTorch Simple GAN Experiments](simplegan_experiments) | [Paper](../)
+[Home](../README.md) | PyTorch BigGAN Discovery | [TensorFlow ProGAN Regularization](../progan_experiments) | [PyTorch Simple GAN Experiments](simplegan_experiments) | [Paper](http://arxiv.org/abs/2108.07668)
 
 
 
@@ -103,7 +103,7 @@ Below are the indices for the directions we reported . You can use `--directions
 
 ## Citation
 
-If our code aided your research, please cite our [paper](./):
+If our code aided your research, please cite our [paper](http://arxiv.org/abs/2108.07668):
 ```
 @inproceedings{wei2021orojar,
   title={Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation},
