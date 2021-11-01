@@ -1,7 +1,12 @@
 ## OroJaR &mdash; BigGAN Direction Discovery
 
 
-[Paper](https://arxiv.org/abs/2108.07668) | [ICCV 2021 Video](https://youtu.be/TnO_3Ng0Hhg) | [ICCV 2021 Poster](../teaser_images/poster.pdf)
+[comment]: <> ([Paper]&#40;https://arxiv.org/abs/2108.07668&#41; | [ICCV 2021 Video]&#40;https://youtu.be/TnO_3Ng0Hhg&#41; | [ICCV 2021 Poster]&#40;../teaser_images/poster.pdf&#41;)
+
+<a href="https://arxiv.org/abs/2108.07668"><img src="https://img.shields.io/badge/arXiv-2108.07668-b31b1b.svg" height=22.5></a>
+<a href="https://youtu.be/TnO_3Ng0Hhg"><img src="https://img.shields.io/static/v1?label=ICCV 2021 &message=Video&color=red" height=22.5></a>
+<a href="https://github.com/csyxwei/OroJaR/blob/master/teaser_images/poster.pdf"><img src="https://img.shields.io/static/v1?label=ICCV 2021 &message=Poster&color=red" height=22.5></a>
+<a href="https://replicate.ai/csyxwei/orojar"><img src="https://img.shields.io/static/v1?label=Replicate&message=Demo and Docker Image&color=darkgreen" height=22.5></a>
 
 [Home](https://github.com/csyxwei/OroJaR) | PyTorch BigGAN Discovery | [TensorFlow ProGAN Regularization](../progan_experiments) | [PyTorch Simple GAN Experiments](../simplegan_experiments) 
 
