@@ -78,11 +78,13 @@ This code supports the Tensorboard. If you want to use Tensorboard, use `--displ
 
 If our code aided your research, please cite our [paper](https://arxiv.org/abs/2108.07668):
 ```
-@inproceedings{wei2021orojar,
-  title={Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation},
-  author={Wei, Yuxiang and Shi, Yupeng and Liu, Xiao and Ji, Zhilong and Gao, Yuan and Wu, Zhongqin and Zuo, Wangmeng},
-  booktitle={Proceedings of International Conference on Computer Vision (ICCV)},
-  year={2021}
+@InProceedings{Wei_2021_ICCV,
+    author    = {Wei, Yuxiang and Shi, Yupeng and Liu, Xiao and Ji, Zhilong and Gao, Yuan and Wu, Zhongqin and Zuo, Wangmeng},
+    title     = {Orthogonal Jacobian Regularization for Unsupervised Disentanglement in Image Generation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {6721-6730}
 }
 ```
 
